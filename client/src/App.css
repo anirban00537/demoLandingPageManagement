@@ -1,0 +1,7 @@
+.colorBlueFONT {
+  color: #778beb;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+}

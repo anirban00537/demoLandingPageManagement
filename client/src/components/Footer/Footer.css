@@ -1,0 +1,32 @@
+.Footer {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 100%;
+  background-color: #303952;
+  align-items: center;
+  justify-content: space-around;
+}
+.fab {
+  color: #fff;
+  margin: 10px;
+}
+.footerOne {
+  color: #fff;
+}
+.footerTwo {
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color: #303952;
+    align-items: center;
+
+    justify-content: space-around;
+  }
+}

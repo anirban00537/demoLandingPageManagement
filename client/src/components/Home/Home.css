@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+}
+.first {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+.homeH1 {
+  font-weight: bold;
+}
+.second {
+  display: flex;
+  flex: 0.5;
+}
+.btn_Home {
+  color: #fff;
+  background-color: #778beb;
+  width: 140px;
+  height: 50px;
+  border-radius: 8px;
+}
+@media (max-width: 900px) {
+  .main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .first {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+  }
+  .first > h1 {
+    font-size: 25px;
+  }
+  .first > p {
+    font-size: 13px;
+  }
+  .second {
+    display: flex;
+    flex: 0.5;
+  }
+}

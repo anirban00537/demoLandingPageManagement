@@ -1,0 +1,106 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.firstContact {
+  flex: 0.5;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.first_map {
+}
+.mapICT {
+  width: 100%;
+  height: 100%;
+  filter: invert(90%);
+}
+.one {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+.secondContact {
+  display: flex;
+
+  flex: 0.5;
+}
+
+.contactITem {
+  background-color: #778beb;
+  margin: 6px;
+  width: 36%;
+  height: 43%;
+  display: flex;
+  justify-content: center;
+  border-radius: 7%;
+  flex-direction: column;
+  align-items: center;
+}
+.secMain {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  height: 100vh;
+}
+.roundContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  height: 90px;
+  width: 90px;
+  background-color: #aeb9f3;
+  border-radius: 50%;
+}
+.cystomICON {
+  font-size: 28px;
+  color: #fff;
+}
+.contactDetailList {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.h1con {
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+}
+.pcon {
+  text-align: center;
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .h1con {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+  }
+  .pcon {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+  }
+  .contactITem {
+    background-color: #778beb;
+    margin: 6px;
+    width: 36%;
+    height: 37%;
+    display: flex;
+    justify-content: center;
+    border-radius: 7%;
+    flex-direction: column;
+    align-items: center;
+  }
+}

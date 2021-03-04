@@ -1,0 +1,39 @@
+.team > h1 {
+  text-align: center;
+  margin-top: 53px;
+}
+.innerTeam {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.teamItam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imageTeam {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}
+.teamItamh1 {
+  margin-top: 14px;
+}
+.teamItamp {
+  color: #778beb;
+}
+
+@media (max-width: 900px) {
+  .innerTeam {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+}
