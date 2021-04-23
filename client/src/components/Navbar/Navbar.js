@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button, Link } from "react-scroll";
 import "./Navbar.css";
 import Slide from "react-reveal/Slide";
-
+import imglogo from "./Group 7.svg";
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
 
@@ -32,7 +32,7 @@ function Navbar() {
           duration={500}
         >
           <div className="logoImg">
-            <h5>BRAINBOXBD</h5>
+            <img src={imglogo} className="img-fluid lgo" />
           </div>
         </Link>
 
@@ -65,6 +65,18 @@ function Navbar() {
             <li className="navDES">
               <Link
                 activeClass="active"
+                to="SERVICE"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                SERVICE
+              </Link>
+            </li>
+            <li className="navDES">
+              <Link
+                activeClass="active"
                 to="About"
                 spy={true}
                 smooth={true}
@@ -77,25 +89,13 @@ function Navbar() {
             <li className="navDES">
               <Link
                 activeClass="active"
-                to="Service"
+                to="CONTACT"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
                 CONTACT
-              </Link>
-            </li>
-            <li className="navDES">
-              <Link
-                activeClass="active"
-                to="Contact"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                TEAM
               </Link>
             </li>
           </ul>

@@ -3,19 +3,18 @@ import Slide from "react-reveal/Slide";
 
 const Home = () => {
   return (
-    <div className="main">
+    <div className="main Home">
       <Slide bottom>
         <div className="first">
           <p className="colorBlueFONT">WELCOME TO BRAINBOXBD</p>
-          <h1 className="homeH1">LETS MAKE PROJECT BUILDING EASY PROCESS</h1>
+          <h1 className="homeH1">LETS MAKE PROJECT BUILDING A EASY PROCESS</h1>
           <p className="homeP">
-            is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry's standard dummy text ever since the
-            1500s, when an unknown printer took a galley of type and scrambled
-            it to make a type specimen book. It has survived not only five
-            centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the
-            release of Letraset sheets containing Lorem Ipsum passages,
+            We develop customized software that is entirely based on the user's
+            requirements. Industries: E-commerce, Garments/Textile, IT &
+            Telecommunication, Information Technology (IT), Engineer/Architects,
+            Accounting/Finance, NGO/Development, Medical/Pharma, Gen Mgt/Admin,
+            Hospital/ Diagnostic Center, Archi./Engg./Construction, Wholesale/
+            Retail/ Export-Import, HR/Org. Development.
           </p>
           <button className="btn_Home btn">LEARN MORE</button>
         </div>
@@ -24,7 +23,7 @@ const Home = () => {
         <div className="second">
           <img
             className="img-fluid"
-            src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg"
+            src="https://cdn.pixabay.com/photo/2015/05/15/14/22/conference-room-768441_960_720.jpg"
             alt="Responsive image"
           />
         </div>

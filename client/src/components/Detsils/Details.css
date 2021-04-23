@@ -10,16 +10,21 @@
   background-color: #778beb;
   align-items: center;
 }
+.btndet {
+  background-color: #778beb !important;
+}
 .makeFlexStart {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
+
 .makeFlexStart > p {
   margin: 20px;
   font-size: 19px;
   font-weight: bold;
   color: #fff;
+  cursor: pointer;
 }
 
 .secondDetails {
@@ -27,16 +32,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  padding: 20px;
+}
+.deth {
+  font-size: 25px;
+  font-weight: 700;
   margin-top: 30px;
 }
 .detp {
   font-size: 18px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
+.btn-quotations {
+  background-color: #778beb;
+  color: #fff;
+}
+.classimgDet {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
 @media (max-width: 900px) {
   .mainDetails {
     display: flex;
-    height: 750px;
+    height: 1103px;
     flex-direction: column;
   }
   .firstDetails {
@@ -47,21 +68,25 @@
     margin-top: 175px;
   }
   .secondDetails {
-    flex: 0.8;
+    flex: 0.8 1;
     display: flex;
     flex-direction: column;
   }
   .makeFlexStart {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* margin-top: 30px; */
   }
   .makeFlexStart > p {
-    margin: 12px;
-    font-size: 16px;
+    margin: 10px;
+    font-size: 18px;
     font-weight: 500;
-
     color: #fff;
+  }
+  .classimgDet {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
   }
   .detp {
     font-size: 14px;
@@ -71,5 +96,6 @@
   .deth {
     font-size: 25px;
     font-weight: 700;
+    margin-top: 30px;
   }
 }

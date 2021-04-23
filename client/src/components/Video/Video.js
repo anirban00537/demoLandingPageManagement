@@ -1,12 +1,12 @@
 import "./Video.css";
 import VideoPlayer from "react-video-js-player";
-import video from "./Google.mp4";
+import video from "./WhatsApp Video 2021-03-11 at 12.22.19 AM (1).mp4";
 import Fade from "react-reveal/Fade";
 
 const Video = () => {
   const vid = video;
   return (
-    <div className="mainVideo ">
+    <div className="mainVideo About ">
       <video autoplay="true" loop="true" muted className="vidStyle">
         <source src={vid} type="video/mp4" />
       </video>
@@ -14,10 +14,10 @@ const Video = () => {
         <div className="vidDEta">
           <h1 className="h1Vid">WE ARE DIGITAL AGENCY</h1>
           <p className="pVid">
-            Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam
-            sequi quod iusto facilis officiis nobis sit quis molestias
-            asperiores rem, blanditiis! Commodi exercitationem vitae deserunt
-            qui nihil ea, tempore et quam natus quaerat doloremque.
+            Collaboration is the key to our organization. We are promising to
+            execute your mission and Vision based on transparency and constant
+            Software Solutions. Your success is a value we Share and a privilege
+            we embrace
           </p>
         </div>
       </Fade>

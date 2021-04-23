@@ -3,19 +3,19 @@
   flex-direction: row;
   height: 200px;
   width: 100%;
-  background-color: #303952;
+  background-color: #fff;
   align-items: center;
   justify-content: space-around;
 }
 .fab {
-  color: #fff;
+  color: black;
   margin: 10px;
 }
 .footerOne {
-  color: #fff;
+  color: black;
 }
 .footerTwo {
-  color: #fff;
+  color: black;
 }
 
 @media (max-width: 900px) {

@@ -1,0 +1,40 @@
+.homeAdmin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.customnavbar {
+  width: 100%;
+  display: flex;
+}
+.goupin {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.cardBDY {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  box-shadow: 5px 3px 5px #e6e6e6;
+  margin: 10px;
+}
+.mainSearch {
+}
+.card-header-head {
+  background-color: #ececec;
+  padding: 10px 10px 10px;
+  padding-left: 20px;
+  color: black;
+  font-size: 22px;
+}
+.card-body-port {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
